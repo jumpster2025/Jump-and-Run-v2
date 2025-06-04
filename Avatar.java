@@ -8,6 +8,7 @@ public class Avatar extends Actor
     private final int groundCheckOffset = getImage().getHeight() / 2 - 1;
     private int xVelocity = 0;
     private int yVelocity = 0;
+    private int score = 0;
     
     private GreenfootImage originalImage;
     private GreenfootImage flippedImage;
@@ -53,6 +54,14 @@ public class Avatar extends Actor
             setLocation(getX() - xVelocity * speed, getY());
             xVelocity = 0;
         }
+    }
+    
+    public void addScore(int value) {
+        score += value;
+    }
+    
+    public int getScore() {
+        return score;
     }
     
     public void moveVertically() {

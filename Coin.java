@@ -8,10 +8,14 @@ public class Coin extends Actor
         this.value = value;
     }
     
+    public int getValue() {
+        return value;
+    }
+    
     public void act()
     {
         if (isTouching(Avatar.class)) {
-                ((MyWorld)getWorld()).removeObject(this);
+                ((MyWorld)getWorld()).addScore(this);
         }
     }
 }
