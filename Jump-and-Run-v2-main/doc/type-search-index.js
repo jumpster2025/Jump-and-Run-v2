@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"Alle Klassen und Schnittstellen","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"Avatar"},{"p":"<Unnamed>","l":"Coin"},{"p":"<Unnamed>","l":"Ground"},{"p":"<Unnamed>","l":"MyWorld"}];updateSearchResults();
