@@ -5,7 +5,7 @@ public class Avatar extends Actor
     private final int speed = 4;
     private final int jumpPower = 20;
     private final int gravity = 1;
-    private final int groundCheckOffset = getImage().getHeight() / 2 - 1;
+    private final int groundCheckOffset = getImage().getHeight() / 2 + 1;
     private int xVelocity = 0;
     private int yVelocity = 0;
     private int score = 0;
@@ -54,6 +54,10 @@ public class Avatar extends Actor
             setLocation(getX() - xVelocity * speed, getY());
             xVelocity = 0;
         }
+    }
+    
+    public boolean getIsTouchingGround() {
+        return !getObjectsAtOffset(0, groundCheckOffset, Ground.class).isEmpty();
     }
     
     public void addScore(int value) {
