@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MyWorld
+comment1.params=
+comment1.target=MyWorld()
+comment2.params=coin
+comment2.target=void\ addScore(Coin)
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ scrollWorld()
+comment5.params=
+comment5.target=Ground\ getHighestGround()
+comment6.params=y
+comment6.target=void\ placeGround(int)
+comment7.params=ground\ coin\ y
+comment7.target=int\ getCoinYAbove(Ground,\ Apple,\ int)
+comment8.params=min\ max
+comment8.target=int\ getRandomInRange(int,\ int)
+numComments=9

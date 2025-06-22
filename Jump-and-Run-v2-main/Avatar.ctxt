@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Avatar
+comment1.params=
+comment1.target=Avatar()
+comment10.params=
+comment10.target=void\ input()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ gravity()
+comment4.params=
+comment4.target=void\ collisionAbove()
+comment5.params=
+comment5.target=void\ moveHorizontally()
+comment6.params=
+comment6.target=boolean\ getIsTouchingGround()
+comment7.params=value
+comment7.target=void\ addScore(int)
+comment8.params=
+comment8.target=int\ getScore()
+comment9.params=
+comment9.target=void\ moveVertically()
+numComments=11
